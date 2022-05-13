@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>CSS Meme Slider</title>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="slider">
+          <input
+            class="control"
+            type="radio"
+            checked
+            name="slider-control"
+            id="slide-1"
+          />
+          <input
+            class="control"
+            type="radio"
+            name="slider-control"
+            id="slide-2"
+          />
+          <input
+            class="control"
+            type="radio"
+            name="slider-control"
+            id="slide-3"
+          />
+          <input
+            class="control"
+            type="radio"
+            name="slider-control"
+            id="slide-4"
+          />
+
+          <div class="slider__container">
+            <div class="slider__images">
+              <div class="slider__images-container">
+                <div class="slider__image">1</div>
+                <div class="slider__image">2</div>
+                <div class="slider__image">3</div>
+                <div class="slider__image">4</div>
+              </div>
+            </div>
+            <div class="slider__titles">
+              <div class="slider__titles-container">
+                <div class="slider__title">title 1</div>
+                <div class="slider__title">title 2</div>
+                <div class="slider__title">title 3</div>
+                <div class="slider__title">title 4</div>
+              </div>
+            </div>
+            <div class="slider__controls">
+              <label for="slide-1" class="slider__control">
+                <span class="control__target"></span>
+              </label>
+              <label for="slide-2" class="slider__control">
+                <span class="control__target"></span>
+              </label>
+              <label for="slide-3" class="slider__control">
+                <span class="control__target"></span>
+              </label>
+              <label for="slide-4" class="slider__control">
+                <span class="control__target"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
