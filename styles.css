@@ -16,7 +16,6 @@ body {
 
 .container {
   width: 100%;
-  /* max-width: 100rem; */
   max-width: 70rem;
   padding: 0 2rem;
   margin: 0 auto;
@@ -84,6 +83,15 @@ body {
   grid-template-columns: repeat(4, 1.5rem);
   align-content: center;
   gap: 0.3rem;
+}
+
+.control.display-none {
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .slider__control {
