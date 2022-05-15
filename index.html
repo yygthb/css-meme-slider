@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>CSS Meme Slider</title>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="slider">
+          <input
+            class="control display-none"
+            type="radio"
+            checked
+            name="slider-control"
+            id="slide-1"
+          />
+          <input
+            class="control display-none"
+            type="radio"
+            name="slider-control"
+            id="slide-2"
+          />
+          <input
+            class="control display-none"
+            type="radio"
+            name="slider-control"
+            id="slide-3"
+          />
+          <input
+            class="control display-none"
+            type="radio"
+            name="slider-control"
+            id="slide-4"
+          />
+
+          <div class="slider__container">
+            <div class="slider__images">
+              <div class="slider__images-container">
+                <img
+                  src="./assets/1.jpg"
+                  alt="slider image"
+                  class="slider__image"
+                />
+                <img
+                  src="./assets/2.jpg"
+                  alt="slider image"
+                  class="slider__image"
+                />
+                <img
+                  src="./assets/3.jpg"
+                  alt="slider image"
+                  class="slider__image"
+                />
+                <img
+                  src="./assets/4.jpg"
+                  alt="slider image"
+                  class="slider__image"
+                />
+              </div>
+            </div>
+            <div class="slider__titles">
+              <div class="slider__titles-container">
+                <p class="slider__title">Думай, что знаешь</p>
+                <p class="slider__title">Будь глубоко на поверхности</p>
+                <p class="slider__title">Ауф</p>
+                <p class="slider__title">Но это не точно</p>
+              </div>
+            </div>
+            <div class="slider__controls">
+              <label for="slide-1" class="slider__control">
+                <span class="control__target"></span>
+              </label>
+              <label for="slide-2" class="slider__control">
+                <span class="control__target"></span>
+              </label>
+              <label for="slide-3" class="slider__control">
+                <span class="control__target"></span>
+              </label>
+              <label for="slide-4" class="slider__control">
+                <span class="control__target"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
