@@ -44,7 +44,7 @@ body {
 /* Slider images */
 .slider__images {
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 0.5rem;
 }
 
 .slider__images-container {
@@ -114,6 +114,10 @@ body {
 
 .slider__control:hover .control__target {
   background-color: #00b4cc8f;
+}
+
+.slider__control:active .control__target {
+  background-color: #00e1ff;
 }
 
 /* Slider animation */
@@ -194,4 +198,21 @@ body {
   .slider__control:nth-child(4)
   .control__target {
   background-color: #00b4cc;
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .slider__titles {
+    width: 100%;
+    order: 1;
+    text-align: center;
+  }
+
+  .slider__controls {
+    margin: 0 auto;
+  }
 }
